@@ -31,8 +31,8 @@ jobs:
 
       # Lint the code
       - name: Lint with flake8
-        run: flake8 hello.py
+        run: flake8 main.py
 
       # Run the Python script
       - name: Run the script
-        run: python hello.py
+        run: python main.py
