@@ -1,1 +1,14 @@
+name: basic
+on
+  push
+      branches
+        jobs
+          test
+              runs on Ubuntu latest
+                  steps:
+                        - name run tests:
 
+                                 run Echo hello tests
+                  
+            - main
+            
